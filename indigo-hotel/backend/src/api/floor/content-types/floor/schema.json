@@ -20,6 +20,12 @@
       "relation": "oneToMany",
       "target": "api::artwork.artwork",
       "mappedBy": "floor"
+    },
+    "artists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artist.artist",
+      "mappedBy": "floor"
     }
   }
 }

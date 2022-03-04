@@ -35,6 +35,12 @@
       "relation": "oneToMany",
       "target": "api::artwork.artwork",
       "mappedBy": "artist"
+    },
+    "floor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::floor.floor",
+      "inversedBy": "artists"
     }
   }
 }

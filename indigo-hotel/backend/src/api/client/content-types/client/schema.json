@@ -20,6 +20,9 @@
     },
     "City": {
       "type": "string"
+    },
+    "ud_id": {
+      "type": "string"
     }
   }
 }
