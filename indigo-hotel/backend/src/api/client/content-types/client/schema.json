@@ -23,6 +23,9 @@
     },
     "ud_id": {
       "type": "string"
+    },
+    "device_id": {
+      "type": "string"
     }
   }
 }
