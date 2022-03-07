@@ -24,7 +24,7 @@
     "ud_id": {
       "type": "string"
     },
-    "device_id": {
+    "Device_id": {
       "type": "string"
     }
   }
